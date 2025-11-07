@@ -1,0 +1,22 @@
+//1. 📂 images/
+
+Contains all the app’s image files, including:
+	•	Logos
+	•	Backgrounds
+	•	Default profile pictures
+	•	Icons for UI buttons (like “heart”, “x”, or “chat”)
+	
+example:
+assets/
+└── images/
+    ├── logo.png
+    ├── defaultAvatar.png
+    ├── heart.png
+    ├── chat.png
+    ├── skip.png
+    └── background.jpg
+    
+---------------------
+    
+//Using images code:
+<Image source={require('../assets/images/logo.png')} style={{ width: 100, height: 100 }} />
