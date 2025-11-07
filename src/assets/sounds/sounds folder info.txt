@@ -1,0 +1,14 @@
+
+If you want sound effects (like match notifications
+
+assets/
+└── sounds/
+    ├── match.mp3
+    └── notification.mp3
+    
+You can play them using Expo’s Audio API:
+
+import { Audio } from 'expo-av';
+const sound = new Audio.Sound();
+await sound.loadAsync(require('../assets/sounds/match.mp3'));
+await sound.playAsync();
