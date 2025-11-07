@@ -1,0 +1,2 @@
+Perfect 🔐 — the config folder stores your app’s setup files, like Firebase configuration, environment variables, or API URLs.
+It’s basically where you define all the connection and initialization settings your app needs to work properly
