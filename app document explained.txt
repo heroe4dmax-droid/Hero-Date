@@ -1,0 +1,22 @@
+
+
+
+
+
+Absolutely ✅ — here’s a typical app.json for an Expo React Native app, set up for your dating app. This file defines your app’s metadata, icons, splash screen, and general Expo configuration
+
+	•	Replace "com.yourname.datingapp" with your own unique package identifier.
+	•	Make sure icon and splash images exist in src/assets/images/.
+	•	You can customize background colors, splash images, and orientation as needed
+	
+//use
+npx expo install @react-navigation/native
+npx expo install @react-navigation/stack
+npx expo install react-native-screens react-native-safe-area-context
+
+✅ What this gives you:
+	•	A Home Screen with a header and navigation to the profile.
+	•	A Profile Screen showing your avatar and basic info.
+	•	A clean, modern structure that you can easily expand (e.g., add login, matches, chats).
+
+

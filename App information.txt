@@ -1,0 +1,4 @@
+https://snack.expo.dev/
+
+//run command: 
+npx create-expo-app@latest

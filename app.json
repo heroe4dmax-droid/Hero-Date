@@ -1,0 +1,35 @@
+	
+	
+{
+  "expo": {
+    "name": "DatingApp",
+    "slug": "dating-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.datingapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/logo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.yourname.datingapp"
+    },
+    "web": {
+      "favicon": "./src/assets/images/logo.png"
+    }
+  }
+}
