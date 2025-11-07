@@ -1,0 +1,21 @@
+Custom fonts to give your app personality
+
+assets/
+└── fonts/
+    ├── Poppins-Regular.ttf
+    ├── Poppins-Bold.ttf
+    └── Roboto-Medium.ttf
+    
+ ::::::::::::::
+ //You can load them in your app entry file (App.js or App.tsx
+ 
+ //code:
+ import * as Font from 'expo-font';
+import AppLoading from 'expo-app-loading';
+
+const loadFonts = () => {
+  return Font.loadAsync({
+    'Poppins-Regular': require('./assets/fonts/Poppins-Regular.ttf'),
+    'Poppins-Bold': require('./assets/fonts/Poppins-Bold.ttf'),
+  });
+};
