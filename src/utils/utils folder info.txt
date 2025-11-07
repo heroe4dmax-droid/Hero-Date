@@ -1,0 +1,3 @@
+Excellent 🔧 — the utils folder (short for utilities) is where you store helper functions — small, reusable pieces of logic that make your code cleaner and easier to maintain.
+
+They don’t directly handle screens or connect to APIs — instead, they help with data formatting, validation, and calculations used throughout the app
