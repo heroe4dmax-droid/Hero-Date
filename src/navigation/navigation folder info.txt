@@ -1,0 +1,3 @@
+Perfect 🚀 — the navigation folder is what connects all your screens together, letting users move between pages like Login → Register → Home → Profile → Chat, etc.
+
+This is handled using React Navigation, which is the standard library for navigation in Expo and React Native apps.
